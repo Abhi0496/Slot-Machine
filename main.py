@@ -53,10 +53,12 @@ def get_number_of_lines():
 
 
 def main():
-    #balance = deposit()
+    balance = deposit()
     bet = get_bet()
-    #lines = get_number_of_lines()
-    #print(balance,lines)
+    lines = get_number_of_lines()
+    print(balance,lines)
     print(bet)
+
+    
 if __name__ == "__main__":
     main()
